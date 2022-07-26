@@ -334,7 +334,7 @@ a:hover {
 
 .nav>li a:hover,
 .nav>li a:focus {
-    background: transparent;
+    background: #949494     ;
 }
 
 .navbar-toggle {
@@ -463,7 +463,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: #949494;
     background: rgba(0, 0, 0, .3);
 }
 
@@ -746,6 +746,10 @@ h4 {
     color: #FFFFFF !important;
 }
 
+.contrast {
+    color : #141414 !important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -782,11 +786,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: #FBECE5 !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #8A320A;
     color: #FFFFFF !important;
 }
 
