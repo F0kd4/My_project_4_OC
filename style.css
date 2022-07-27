@@ -18,6 +18,11 @@ a:hover {
     cursor: pointer;
 }
 
+*:focus {
+    border: solid 4px;
+    border-color: #1b4ae6;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -91,7 +96,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -334,7 +339,7 @@ a:hover {
 
 .nav>li a:hover,
 .nav>li a:focus {
-    background: #949494     ;
+    background: #949494;
 }
 
 .navbar-toggle {
@@ -747,7 +752,7 @@ h4 {
 }
 
 .contrast {
-    color : #141414 !important;
+    color: #141414 !important;
 }
 
 .portfolio-thumb {
@@ -821,11 +826,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
